@@ -1,0 +1,4 @@
+export OM_PASSWORD=
+export OM_USERNAME=
+export OM_TARGET=
+export PIVOTAL_NETWORK_API_TOKEN=
