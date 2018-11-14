@@ -7,3 +7,5 @@ export COUNTRY=US
 export STATE=CO
 export CITY=Denver
 export COMPANY=Pivotal
+export VSPHERE_USER_PASS=
+

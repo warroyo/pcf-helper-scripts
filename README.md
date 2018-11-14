@@ -8,7 +8,6 @@ This is a set of scripts to help with the install and daily mgmt of PCF.
 2. `source pcfsrc`
 3. run the script of your choosing 
 
-
 # Scripts
 
 ## [install-om-pivnet.sh](opsman/install-om-pivnet.sh)
@@ -60,3 +59,16 @@ the neccessary params for this will come from the pcfsrc.
 #### Usage:
 
 `./openssl/generate-cert.sh`
+
+## [create-user.sh](vmware/create-user.sh)
+
+#### Description
+this will use govc to create a user, role and attach the role to the user in vsphere. these permissions are based on [this doc](https://docs.pivotal.io/pivotalcf/2-3/customizing/vsphere-service-account.html) 
+
+#### Params:
+the neccessary params for this will come from the pcfsrc. 
+* `VSPHERE_USER_PASS`
+
+#### Usage:
+
+`./vmware/create-user.sh`
