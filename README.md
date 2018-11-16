@@ -70,5 +70,7 @@ the neccessary params for this will come from the pcfsrc.
 * `VSPHERE_USER_PASS`
 
 #### Usage:
+* set the above paramater value in the `pcfsrc`
+* `source pcfsrc`
+* `./vmware/create-user.sh`
 
-`./vmware/create-user.sh`
