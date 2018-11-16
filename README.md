@@ -63,7 +63,7 @@ the neccessary params for this will come from the pcfsrc.
 ## [create-user.sh](vmware/create-user.sh)
 
 #### Description
-this will use govc to create a user, role and attach the role to the user in vsphere. these permissions are based on [this doc](https://docs.pivotal.io/pivotalcf/2-3/customizing/vsphere-service-account.html) 
+this will use [govc](https://github.com/vmware/govmomi/tree/master/govc) to create a user, role and attach the role to the user in vsphere. these permissions are based on [this doc](https://docs.pivotal.io/pivotalcf/2-3/customizing/vsphere-service-account.html) 
 
 #### Params:
 the neccessary params for this will come from the pcfsrc. 
