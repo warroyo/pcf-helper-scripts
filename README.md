@@ -74,3 +74,20 @@ the neccessary params for this will come from the pcfsrc.
 * `source pcfsrc`
 * `./vmware/create-user.sh`
 
+
+## [create-users.sh](management/create-users.sh)
+
+#### Description
+this will use a file name `users.json` in the management directory that describes the users. it will loops over this file and create users in PAS with the correct org/space roles. it will output a `logins.txt` with the usernames and passwords.
+
+#### Dependencies
+* jq
+* pwgen
+* cf-cli
+
+#### Params:
+the neccessary params for this will come from the `users.json` file. 
+
+#### Usage:
+* `./management/create-users.sh`
+

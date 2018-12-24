@@ -1,0 +1,34 @@
+[
+    {
+        "name": "student1",
+        "spaces": [
+            {
+                "orgname": "workshop",
+                "name": "workshop",
+                "role": "SpaceDeveloper"
+            }
+        ],
+        "orgs": [
+            {
+                "name": "workshop",
+                "role": "OrgAuditor"
+            }
+        ]
+    },
+    {
+        "name": "student2",
+        "spaces": [
+            {
+                "orgname": "workshop",
+                "name": "workshop",
+                "role": "SpaceDeveloper"
+            }
+        ],
+        "orgs": [
+            {
+                "name": "workshop",
+                "role": "OrgAuditor"
+            }
+        ]
+    }
+]
