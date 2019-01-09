@@ -41,6 +41,6 @@ this document will explain how to create a client for SCS that has read access a
 
 9. copy the `access_token` from the output above and now access your config server
 
- `curl https://config-<unique-id>.<apps-domain>/?access_token=<access_token>`
+    `curl https://config-<unique-id>.<apps-domain>/?access_token=<access_token>`
 
- an example may be `https://config-ed608d55-be4c-446c-ac7a-844a99dfc002.apps.pas.yourcompany.com`
+    an example may be `https://config-ed608d55-be4c-446c-ac7a-844a99dfc002.apps.pas.yourcompany.com`
