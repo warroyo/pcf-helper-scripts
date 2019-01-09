@@ -33,7 +33,7 @@ this document will explain how to create a client for SCS that has read access a
 
 7. create a new client 
 
-    `uaac client add --name <client-name> -s '<client-secret>' --scope uaa.none --access_token_validity <time-in-seconds> --authorized_grant_types client_credentials`
+    `uaac client add --name <client-name> -s '<client-secret>' --scope uaa.none  --authorities 'p-config-server.<unique-id>.read' --access_token_validity <time-in-seconds> --authorized_grant_types client_credentials`
 
 8. generate a new token from the client 
 
