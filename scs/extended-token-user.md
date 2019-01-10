@@ -2,6 +2,11 @@
 
 this document will explain how to create a client for SCS that has read access and an arbitrary token expiration. this could be useful for creating an oauth client that has tokens that can last longer than the default 30 second max. these could be used  by external services to CF that cannot handle being a normal oauth client.
 
+#Beware
+
+* if you create a new config server this will not work unless you update the authorities
+* if yu delete the scs tile you will need to do this again
+
 # Steps
 
 1. ssh to your bosh director ex. `10.0.0.10` this ip could be different.
