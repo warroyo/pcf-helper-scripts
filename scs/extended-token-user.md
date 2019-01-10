@@ -46,6 +46,12 @@ this document will explain how to create a client for SCS that has read access a
 
 9. copy the `access_token` from the output above and now access your config server
 
+    * make a request to the config server with the token 
+
+     `curl -H 'Authorization: Bearer <acces_token>' https://config-<unique-id>.<apps-domain>`
+
+    * use a query param for the access token if you cannot pass headers
+  
     `curl https://config-<unique-id>.<apps-domain>/?access_token=<access_token>`
 
     an example may be
